@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sectionBox {
+    height: 300px;
+}
+
+.col-4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
