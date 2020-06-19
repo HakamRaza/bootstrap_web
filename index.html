@@ -10,6 +10,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
         <link rel="stylesheet" href="index.css">
+        <!-- link your css files -->
 
     <head>
 
@@ -19,14 +20,67 @@
 
 
     <body>
+        <!-- adding navigation bar copied from bootstrap website / components/navs -->
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+        </div>
 
         <div class="container">
+
+            <div class="row">
+                
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+
+            </div>
+
             
-            <div class="row" style="background-color: yellow;"> 
+        </div>
+
+        <div class="container">
+    
+            <!-- <div class="row" style="background-color: yellow;"> 
                 <div class="sectionBox col-4" style="background-color: red;">Col 1</div>
                 <div class="sectionBox col-4" style="background-color: green;">Col 2</div>
                 <div class="sectionBox col-4" style="background-color: tomato;">Col 3</div>
-            </div>
+            </div> -->
 
             <!-- col-4 means 4  column will group  together = 12 columns to get 3 columns same width -->
 
@@ -35,7 +89,6 @@
                 <div class="sectionBox col-12 col-md-8" style="background-color: lightcoral;">Col2</div>
                 <div class="sectionBox col-12 col-md-2" style="background-color: lightgreen">Col3</div>
             </div>
-
             <!-- using mobile responsive, here in case screen more than 540px, it will run sm, if larger than 720px , bootstrap run md -->
 
             <div class="row">
