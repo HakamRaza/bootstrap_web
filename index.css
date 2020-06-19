@@ -7,3 +7,8 @@
 .sectionBox {
     height: 300px;
 }
+
+.col-4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
